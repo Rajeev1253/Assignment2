@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(images/WhatsApp\ Image\ 2024-01-10\ at\ 9.54.37\ PM.jpeg);
+}
+div{
+}
+.para1{
+    display: flex;
+}
+.logo{
+    display: inline;
+    color: orange;
+    font-size:3rem;
+    width:20%;
+    text-align: center;
+    padding-top: 1%;
+}
+.logo>h3{
+    display: inline;
+}
+.navbar{
+    display: inline;
+    width:50%;
+}
+.navbar>ul{
+display: flex;
+list-style: none;
+}
+.navbar>ul>li{
+    list-style: none;
+    padding: 6%;
+    font-weight: 500;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+}
+.searchbox{
+    float:right;
+    width: 40%;
+    height: 15%;
+    text-align: center;
+    padding-top: 3%;
+    
+}
+.searchbox>input{
+    background:inherit ;
+    border:1px solid orange ;
+    color:white
+}
+.searchbox>button{
+    background-color: orange;
+    font-size: 1rem;
+    border-radius:5px ;
+    margin-left: 0;
+    padding-left:0 ;
+}
+.para2{
+    display: flex;
+
+}
+.left-side{
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 40%;
+    width:60%
+}
+.left-side>h1{
+    display: inline-block;
+    color:black;
+    width: 20%;
+}
+.left-side>p{
+    width: 60%;
+}
+span{
+    color: orange;
+}
+.left-side>button{
+    display: block;
+    margin: 20px;
+    margin-left: 0;
+    width:15%;
+    height: 20%;
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 1%;
+
+
+}
+.right-side{
+    position: relative;
+    margin-top: 30px;
+    margin-left:30px;
+    height:400px;
+    width:301px;
+    text-align: center;
+    background-color: black;
+    border-radius:10px ;
+    opacity: 0.9;
+
+}
+.right-side>.Login-here{
+    display: block;
+    margin: 8%;
+    width: 80%;
+    height: 10%;
+    color:orange;
+    font-size: 1rem;
+    border-radius: px;
+    
+}
+.right-side>input{
+    background:inherit ;
+    border-bottom:  solid orange;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+.login{
+    display: block;
+    margin: 8%;
+    width: 80%;
+    height: 10%;
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+.right-side>p,h6{
+    color: aliceblue;
+}
+.icons{
+    margin-top: 5%;
+}
+.icons a{
+    padding-top:;
+    color: white;
+    
+}
+. search{
+    background: transparent;
+    border: 2px solid #ff7900;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 65px;
+    width: 500px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 1px;
+
+}
+.btn{
+    color:white;
+    background-color: #ff7900;
+    border-radius: 10px;
+    height: 65px;
+    width: 160px;
+    font-size: 10px;
+}
